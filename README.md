@@ -3,21 +3,20 @@ tcc
 
 Projeto de conclusão de curso
 
-Instalação do LaTeX no MacOS X
----------------------------------------------
+# Instalação do LaTeX no MacOS X
 Baixe e instale o arquivo MaTeX.pkg em http://tug.org/mactex/
 
-Customização de scripts
----------------------------------
-* nomencl
+#Customização de scripts
+nomencl
+-------
 
 1 - Crie o arquivo Nomenclature.engine com o conteúdo:
-'''
+```bash
 #!/bin/sh
 
 bfname=$(dirname "$1")/"\`basename "$1" .tex\`"
 makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls
-'''
+```
 
 2 - Salve-o no diretório `~/Library/TeXShop/Engines/Nomenclature.engine`
 
@@ -27,9 +26,9 @@ makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls
 
 5 - O item Nomenclature estará no drop down próximo ao botão Typeset.
 
-Pacotes extras
---------------------
-* \usepackage{float}
+#Pacotes extras
+\usepackage{float}
+------------------
 Faz com que tabelas e figuras flutuem no documento
 Ex.:
 	\begin{table}[H]
@@ -38,7 +37,8 @@ Ex.:
 		\end{tabular}
 	\end{table}
 
-* \usepackage{nomencl}
+\usepackage{nomencl}
+--------------------
 Criação de lista de siglas
 Ex.:
 	\makenomenclature 						// Necessário no início do documento
