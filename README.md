@@ -29,21 +29,23 @@ makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls
 #Pacotes extras
 \usepackage{float}
 ------------------
-Faz com que tabelas e figuras flutuem no documento
+Faz com que tabelas e figuras flutuem no documento.
+
 Ex.:
 ```LaTeX
-	\begin{table}[H]
-		\centering
-		\begin{tabular}
-		\end{tabular}
-	\end{table}
+\begin{table}[H] % Usar o parâmetro H (here)
+	\centering
+	\begin{tabular}
+	\end{tabular}
+\end{table}
 ```
 \usepackage{nomencl}
 --------------------
-Criação de lista de siglas
+Criação de lista de siglas.
+
 Ex.:
 ```LaTeX
-	\makenomenclature % Necessário no início do documento
-	\nomenclature{XP}{eXtreme Programming} % Definição de sigla
-	\renewcommand{\nomname}{Lista de Siglas} % Customização do título da sessão de siglas
+\makenomenclature % Necessário no início do documento
+\nomenclature{XP}{eXtreme Programming} % Definição de sigla
+\renewcommand{\nomname}{Lista de Siglas} % Customização do título da sessão de siglas
 ```
