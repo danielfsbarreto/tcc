@@ -31,16 +31,19 @@ makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls
 ------------------
 Faz com que tabelas e figuras flutuem no documento
 Ex.:
+```LaTeX
 	\begin{table}[H]
 		\centering
 		\begin{tabular}
 		\end{tabular}
 	\end{table}
-
+```
 \usepackage{nomencl}
 --------------------
 Criação de lista de siglas
 Ex.:
-	\makenomenclature 						// Necessário no início do documento
-	\nomenclature{XP}{eXtreme Programming} 	// Definição de sigla
-	\renewcommand{\nomname}{Lista de Siglas}	// Customização do título da sessão de siglas
+```LaTeX
+	\makenomenclature % Necessário no início do documento
+	\nomenclature{XP}{eXtreme Programming} % Definição de sigla
+	\renewcommand{\nomname}{Lista de Siglas} % Customização do título da sessão de siglas
+```
