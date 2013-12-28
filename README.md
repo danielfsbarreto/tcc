@@ -10,6 +10,7 @@ Baixe e instale o arquivo MaTeX.pkg em http://tug.org/mactex/
 Customização de scripts
 ---------------------------------
 * nomencl
+
 1 - Crie o arquivo Nomenclature.engine com o conteúdo:
 
 `#!/bin/sh
