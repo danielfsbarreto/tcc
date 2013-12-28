@@ -12,11 +12,12 @@ Customização de scripts
 * nomencl
 
 1 - Crie o arquivo Nomenclature.engine com o conteúdo:
-
-`#!/bin/sh
+'''
+#!/bin/sh
 
 bfname=$(dirname "$1")/"\`basename "$1" .tex\`"
-makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls`
+makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls
+'''
 
 2 - Salve-o no diretório `~/Library/TeXShop/Engines/Nomenclature.engine`
 
