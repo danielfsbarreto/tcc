@@ -1,7 +1,7 @@
-tcc
+TCC
 ===
 
-Projeto de conclusão de curso
+Minha monografia
 
 # Instalação do LaTeX no MacOS X
 Baixe e instale o arquivo MaTeX.pkg em http://tug.org/mactex/
