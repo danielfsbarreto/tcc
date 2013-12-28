@@ -15,7 +15,7 @@ Customização de scripts
 
 `#!/bin/sh
 
-bfname=$(dirname "$1")/"`basename "$1" .tex`"
+bfname=$(dirname "$1")/"\`basename "$1" .tex\`"
 makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls`
 
 2 - Salve-o no diretório `~/Library/TeXShop/Engines/Nomenclature.engine`
