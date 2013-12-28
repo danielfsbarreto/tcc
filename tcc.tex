@@ -14,6 +14,7 @@
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{nomencl}
         
 \newcommand{\D}{\displaystyle}
 \newcommand{\mc}{\multicolumn}
@@ -26,10 +27,11 @@
 \newcommand\JC[1]{{\color{red} #1}}
 \newcommand\AO[1]{{\color{green} #1}}
 
+\makenomenclature
+\renewcommand{\nomname}{Lista de Siglas}
 
 \begin{document}
 \pagestyle {empty}
-
 
 %CAPA
 \vspace*{-2cm}
@@ -69,6 +71,22 @@ Março de 2014}
 \pagestyle {plain}
 \setcounter{page}{0} \pagenumbering{arabic}
 
+%SUMÁRIO
+\tableofcontents
+\newpage
+
+%LISTA DE TABELAS
+\listoftables
+\newpage
+
+%LISTA DE SIGLAS
+\printnomenclature
+\newpage
+
+%LISTA DE FIGURAS
+\listoffigures
+\newpage
+
 %REVISÃO SISTEMÁTICA
 \section{Revisão Sistemática}
 	Serão apresentados neste capítulo os seguintes pontos: a estratégia de pesquisa adotada neste projeto de conclusão de curso, os desafios e as lições aprendidas documentadas por organizações de desenvolvimento de software que tentaram (com sucesso ou não) adotar ágil.
@@ -92,7 +110,6 @@ Março de 2014}
 					ACM & Online & http://www.acm.org/ \\ \hline
 					IEEE & Online & http://ieeexplore.ieee.org/ \\ \hline
 					Google Scholar & Online & http://scholar.google.com/ \\ \hline
-					Agile Brazil & Conferência & - \\ \hline
 					SBQS & Conferência & - \\ \hline
 					ICSE & Conferência & - \\ \hline
 					WBMA & Conferência & - \\ \hline
@@ -102,6 +119,13 @@ Março de 2014}
 				\caption{Resumo das bases de dados utilizadas na pesquisa}
 				\label{tab:basesDeDados}
 			\end{table}
+			\nomenclature{CAPES}{Coordenação de Aperfeiçoamento de Pessoal de Nível Superior}%
+			\nomenclature{ACM}{Association for Computing Machinery}%
+			\nomenclature{IEEE}{Instituto de Engenheiros Eletricistas e Eletrônicos}%
+			\nomenclature{SBQS}{Simpósio Brasileiro de Qualidade de Software}%
+			\nomenclature{ICSE}{International Conference on Software Engineering}%
+			\nomenclature{WBMA}{Workshop Brasileiro de Métodos Ágeis}%
+			\nomenclature{XP}{eXtreme Programming}%
 		\subsubsection{Palavras-chave}
 			Neste passo, foram definidas as palavras-chave (Tabela \ref{tab:palavrasChave}) buscadas nas bases de dados selecionadas.
 			\begin{table}[H]
@@ -127,6 +151,5 @@ Março de 2014}
 \newpage
 \bibliographystyle{plain}
 \bibliography{referencias}
-
 
 \end{document}
