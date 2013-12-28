@@ -10,7 +10,7 @@ Baixe e instale o arquivo MaTeX.pkg em http://tug.org/mactex/
 nomencl
 -------
 
-1 - Crie o arquivo Nomenclature.engine com o conteúdo:
+1 - Crie o arquivo `Nomenclature.engine` com o conteúdo:
 ```bash
 #!/bin/sh
 
