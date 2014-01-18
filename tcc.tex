@@ -38,12 +38,29 @@
 \setlength{\oddsidemargin}{-0.1cm}    % espaço entre o texto e a margem
 \setlength{\parindent}{.0in}          % identação na 1a linha de cada parágrafo
 \sloppy                               % Ser indulgente no preenchimento das linhas
-\parskip 10pt                         % Espaçamento entre parágrafos                
+\parskip 10pt                         % Espaçamento entre parágrafos
+
+%alguns macros
+\newtheorem{teo}{Teorema}[chapter]
+\newtheorem{lema}[teo]{Lema}
+\newtheorem{cor}[teo]{Corol\'{a}rio}
+\newtheorem{prop}[teo]{Proposi\c{c}\~{a}o}
+\newtheorem{defin}[teo]{Defini\c{c}\~ao}
+\newtheorem{Af}[teo]{Afirma\c{c}\~{a}o}
+\newtheorem{ex}[teo]{Exemplo}
+\newtheorem{obs}[teo]{Observa\c{c}\~{a}o}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\Rn}{{\ensuremath{\mathbb{R}}}^{n}}
+\newcommand{\Rm}{{\ensuremath{\mathbb{R}}}^{m}}
+\newcommand{\Rnn}{{\ensuremath{\mathbb{R}}}^{ n \times n }}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\blackbox}{\rule{2mm}{2mm}}
+\newcommand{\raiz}{\mbox{raiz}}
+\newcommand{\contcaption}[1]{\vspace*{-0.1\baselineskip}\begin{center}#1\end{center}\vspace*{0.3\baselineskip}}
 
 % Definindo as barras para a capa
 \newcommand{\HRule}{\rule{\linewidth}{1mm}}
-
-
 
 % ====================================================================================
 
