@@ -26,6 +26,8 @@ makeindex "$bfname".nlo -s nomencl.ist -o "$bfname".nls
 
 5 - O item Nomenclature estará no drop down próximo ao botão Typeset.
 
+Obs.: Para configurar a compilação utilizando o TeXmaker, basta modificar o comando utilizado para rodar o makeindex `"/usr/texbin/makeindex" %.nlo -s nomencl.ist -o %.nls`
+
 #Pacotes extras
 \usepackage{float}
 ------------------
