@@ -51,3 +51,11 @@ Ex.:
 \nomenclature{XP}{eXtreme Programming} % Definição de sigla
 \renewcommand{\nomname}{Lista de Siglas} % Customização do título da sessão de siglas
 ```
+
+#Tips and Tricks
+Conversão de imagens
+--------------------
+Como comverter imagens `.jpeg` ou `.png` para `.eps`? Muito simples!
+`convert temp.png -compress lzw eps2:temp.eps`
+ou
+`convert temp.jpg -compress jpeg eps2:temp.eps`
