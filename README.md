@@ -5,6 +5,7 @@ Minha monografia
 
 # Instalação do LaTeX no MacOS X
 Baixe e instale o arquivo MacTeX.pkg em http://tug.org/mactex/
+
 Baixe e instale o texmaker em http://www.xm1math.net/texmaker/download.html
 
 #Customização de scripts
@@ -43,5 +44,7 @@ Ex.:
 Conversão de imagens
 --------------------
 `convert temp.png -compress lzw eps2:temp.eps`
+
 ou
+
 `convert temp.jpg -compress jpeg eps2:temp.eps`
