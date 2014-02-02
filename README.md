@@ -4,7 +4,8 @@ TCC
 Minha monografia
 
 # Instalação do LaTeX no MacOS X
-Baixe e instale o arquivo MaTeX.pkg em http://tug.org/mactex/
+Baixe e instale o arquivo MacTeX.pkg em http://tug.org/mactex/
+Baixe e instale o texmaker em http://www.xm1math.net/texmaker/download.html
 
 #Customização de scripts
 nomencl
