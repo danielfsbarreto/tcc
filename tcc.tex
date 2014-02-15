@@ -22,6 +22,7 @@
 \usepackage{multirow}
 \usepackage{caption}
 \usepackage{array}
+\usepackage{tabularx}
 
 % Pacotes relativos à inclusão de figuras
 \usepackage {graphicx}         % para incluir figuras em PostScript
@@ -78,16 +79,16 @@
 \pagestyle {empty}
 
 % Páginas iniciais
-\include{prefacios/capa/capa}           % capa ilustrativa
-\include{prefacios/folha_rosto/folha_rosto}     % capa ABNT
+%\include{prefacios/capa/capa}           % capa ilustrativa
+%\include{prefacios/folha_rosto/folha_rosto}     % capa ABNT
 
 % Numeração em romanos para páginas iniciais (sumários, listas, etc)
 \pagenumbering {roman}
 \pagestyle {plain}
 
 % Geração do sumário, agradecimentos, e etc..
-\include {prefacios/resumo/resumo}         % resumo em português
-\include {prefacios/abstract/abstract}
+\include{prefacios/resumo/resumo}         % resumo em português
+\include{prefacios/abstract/abstract}
 \tableofcontents                    % sumário
 \listoftables                       % lista de tabelas
 \listoffigures                      % lista de figuras
@@ -127,6 +128,8 @@
 \include{capitulos/introducao/introducao}
 \include{capitulos/literatura/literatura}
 \include{capitulos/relatos/relatos}
+\include{capitulos/las/las_qualitativa}
+\include{capitulos/las/las_quantitativa}
 
 
 %Incluindo referências bibliográficas
