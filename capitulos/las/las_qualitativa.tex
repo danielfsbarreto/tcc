@@ -128,7 +128,7 @@ Outro ponto relevante levantado por alguns trabalhos é o quanto ágil pode ser 
 	\end{tabularx}
 \end{table}
 
-Antes de analisar-se este ponto, é preciso ter em mente que Ágil não é (nem nunca quis ser) a solução dos problemas causados por processos orientados a planejamento. Não existe bala de prata quanto o assunto é desenvolvimento de software \cite{Piegas2012,Microsoft2013}.
+Antes de analisar este ponto, é preciso ter em mente que Ágil não é (nem nunca quis ser) a solução dos problemas causados por processos orientados a planejamento. Não existe bala de prata quanto o assunto é desenvolvimento de software \cite{Piegas2012,Microsoft2013}.
 
 Houve uma grande divergência com relação ao impacto causado por Ágil na confiança dos envolvidos. Enquanto vários trabalhos apontaram que o uso de métodos ágeis contribui com a manutenção da moral elevada do time, outros apontaram exatamente o oposto.
 
@@ -153,7 +153,7 @@ Em contrapartida, o relato \cite{Nokia2013} afirma que, em certos casos, é desm
 
 Para que a construção e entrega de um software sejam bem sucedidas, é preciso esforço de diversas pessoas: desenvolvedores, analistas de qualidade, analistas de negócio, product owners, etc. Ficou bem claro que, para as empresas de desenvolvimento de software analisadas, todos os stakeholders precisam estar fortemente envolvidos em todas as etapas do processo de construção produto. Contudo, um desafio visualizado através dos artigos e relatos foi o de manter o PO engajado. Um exemplo citado por \cite{Block2011} é a dificuldade em manter o cliente próximo para que ele definisse novas funcionalidades e priorizasse o backlog. Situações como esta podem prejudicar consideravelmente o resultado final do projeto, causando frustração para ambos os lados.
 
-Outro ponto pouco citado, porém relevante, é a questão da disciplina em projetos ágeis. Dado que, na teoria, deveríamos ter um ambiente menos controlado e com times auto-organizáveis, esta é uma característica que precisa surgir naturalmente, visto que não existe um plano detalhado a ser seguido.
+Outro ponto pouco citado, porém relevante, é a questão da disciplina em projetos ágeis. Dado que, na teoria, deveríamos ter um ambiente menos controlado e com times auto-organizáveis, esta é uma característica que precisa surgir naturalmente, visto que não existe um plano detalhado a ser seguido. \cite{Parzinello2012} afirma que não se deve culpar o SCRUM (umas das metodologias ágeis mais populares) por sua falta de disciplina.
 
 \subsection{Aspectos técnicos e tecnológicos}
 
@@ -168,9 +168,14 @@ Outro ponto pouco citado, porém relevante, é a questão da disciplina em proje
 		Infra-estruturas virtualizadas proporcionam a flexibilidade necessária para muitos projetos ágeis & \cite{Radha2012} \\ \hline
 		Ágil promove uma pior manutenibilidade do código & \cite{Nokia2013}, \cite{Queiroz2013} \\ \hline
 		Em certos casos há resistência por parte do cliente para utilizar o produto construído & \cite{Stefano2013} \\ \hline
-		Pensamento ágil precisa vir com capacidade técnica & \cite{Karaj2013} \\ \hline
 	\end{tabularx}
 \end{table}
+
+Aspectos técnicos são muito peculiares, variam de projeto para projeto. Por conta disto, várias lições aprendidas referentes a estes aspectos foram coletadas. Todavia, um padrão analisado é que muitas fontes fazem alusão a uma prática relativamente comum em projetos ágeis: a implantação de um servidor de integração contínua. Pode-se usufruir de muitos benefícios a partir desta prática, como, por exemplo, a automação de testes e deploy automático de código. Para \cite{Block2011}, estas mudanças técnicas tiveram um papel fundamental no nível de sucesso que puderam conquistar com práticas ágeis.
+
+Não planejar todos os detalhes de um projeto antes do seu início causa uma série de impactos no seu fluxo de atividades. Uma área bastante afetada por esta característica de Ágil é o design arquitetural. Diversos materiais afirmaram ter tido problemas com isto. Segundo \cite{Bustard2013}, algumas empresas consideraram Ágil um retrocesso neste aspecto.
+
+A manutenibilidade de código foi o ponto polêmico desta categoria. \cite{Nokia2013} relatou passar por dificuldades em gerenciar muitas pessoas modificando o mesmo código simultaneamente, enquanto \cite{Bustard2013} mostra que diversas empresas comentaram que a melhoria na qualidade e manutenibilidade do código foi um dos principais ganhos com o uso de metodologias ágeis.
 
 \subsection{Compartilhamento de conhecimento}
 
